@@ -15,9 +15,6 @@
   p {
     color: gray;
   }
-  footer {
-    background-color: #0a6375;
-  }
 }
 
 @layer components {
