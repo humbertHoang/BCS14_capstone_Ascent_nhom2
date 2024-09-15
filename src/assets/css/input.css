@@ -9,9 +9,13 @@
   h4,
   h5,
   h6 {
-    @apply font-jost;
+    @apply font-jost text-balance;
   }
-
+  p,
+  li,
+  figcaption {
+    @apply text-pretty max-w-[65ch];
+  }
   p {
     color: gray;
   }
